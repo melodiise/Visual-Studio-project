@@ -1,0 +1,282 @@
+header {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.Icon {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.Bar h2 {
+  font-size: 1.7vw;
+  margin: 50px;
+  color: white;
+  max-width: 50%;
+}
+
+.Bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.Bar {
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header img {
+  padding-left: 10px;
+}
+
+header h1 {
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+.column img {
+  margin-bottom: 2.5px;
+  width: 100%;
+  margin: 4px;
+  position: relative;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  max-width: 48%;
+  padding: 0 4px;
+}
+
+.Bar {
+  max-width: 100%;
+}
+
+.Bind-Container {
+  position: relative;
+}
+
+.Bind-Container h3 {
+  position: absolute;
+  font-size: 3.5vw;
+  left: 4%;
+  top: 1%;
+}
+
+.Bind-Container h4 {
+  position: absolute;
+  font-size: 3vw;
+  left: 4%;
+  top: 26%;
+}
+
+.Bind-Container p {
+  position: absolute;
+  font-size: 1.4vw;
+  left: 4%;
+  top: 50%;
+  max-width: 65%;
+}
+
+.Haven-Container {
+  position: relative;
+}
+
+.Haven-Container h3 {
+  position: absolute;
+  font-size: 3.5vw;
+  left: 4%;
+  top: 1%;
+}
+
+.Haven-Container h4 {
+  position: absolute;
+  font-size: 3vw;
+  left: 4%;
+  top: 26%;
+}
+
+.Haven-Container p {
+  position: absolute;
+  font-size: 1.4vw;
+  left: 4%;
+  top: 50%;
+  max-width: 65%;
+}
+
+.Split-Container {
+  position: relative;
+}
+
+.Split-Container h3 {
+  position: absolute;
+  font-size: 3.5vw;
+  left: 4%;
+  top: 1%;
+}
+
+.Split-Container h4 {
+  position: absolute;
+  font-size: 3vw;
+  left: 4%;
+  top: 26%;
+}
+
+.Split-Container p {
+  position: absolute;
+  font-size: 1.5vw;
+  left: 4%;
+  top: 50%;
+  max-width: 65%;
+}
+
+.Ascent-Container {
+  position: relative;
+}
+
+.Ascent-Container h3 {
+  position: absolute;
+  font-size: 3.5vw;
+  left: 4%;
+  top: 1%;
+}
+
+.Ascent-Container h4 {
+  position: absolute;
+  font-size: 3vw;
+  left: 4%;
+  top: 26%;
+}
+
+.Ascent-Container p {
+  position: absolute;
+  font-size: 1.5vw;
+  left: 4%;
+  top: 50%;
+  max-width: 65%;
+}
+
+.container {
+  position: relative;
+}
+
+.Container p {
+  text-shadow: 2px 2px 5px black;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 1250px) {
+  .column {
+    max-width: 100%;
+  }
+
+  .Bar h2 {
+    font-size: 25px;
+  }
+
+  .Bar {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .Icon h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 32px;
+  }
+
+  .Container h3 {
+    font-size: 5vw;
+  }
+
+  .Container h4 {
+    font-size: 5vw;
+  }
+
+  .Container p {
+    font-size: 3vw;
+    top: 46%;
+  }
+
+  .footer a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .Icon {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .Icon h1 {
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Icon {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .Bar {
+    display: inline;
+  }
+
+  .Bar h2 {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .footer a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Icon h1 {
+    font-size: 19px;
+  }
+
+  .Bar h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .footer a {
+    font-size: 8px;
+    margin-left: 3%;
+  }
+}
